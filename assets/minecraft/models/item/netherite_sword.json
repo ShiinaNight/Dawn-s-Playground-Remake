@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+		{ "predicate": { "custom_model_data": 12070001 }, "model": "dp:item/weapon/excalibur"},
+    { "predicate": { "custom_model_data": 12070003 }, "model": "dp:item/weapon/nameless_blade"},
+    { "predicate": { "custom_model_data": 12070011 }, "model": "dp:item/weapon/the_shard"},
+    { "predicate": { "custom_model_data": 12070016 }, "model": "dp:item/weapon/infinity_blade"}
+	]
+}

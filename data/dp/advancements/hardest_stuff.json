@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot",
+            "nbt": "{CustomModelData:12070002}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.hardest_stuff"
+        },
+        "description": {
+            "translate": "advancement.dp.description.hardest_stuff"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:breaking_the_rule",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:exchalybs_ingot\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

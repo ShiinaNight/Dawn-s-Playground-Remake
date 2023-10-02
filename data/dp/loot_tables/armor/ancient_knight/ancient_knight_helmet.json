@@ -1,0 +1,77 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:ancient_knight_helmet\",Unbreakable:1b,HideFlags:128,Trim:{material:\"minecraft:iron\",pattern:\"dp:ancient_knight\"},display:{Name:'{\"translate\":\"item.dp.ancient_knight_helmet\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "lore.dp.rogue_item_description",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.armor",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -6,
+                                        "max": 6
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "generic.armor_toughness",
+                                    "attribute": "generic.armor_toughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 5
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "generic.max_health",
+                                    "attribute": "generic.max_health",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -10,
+                                        "max": 10
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "generic.attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.2,
+                                        "max": 1
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

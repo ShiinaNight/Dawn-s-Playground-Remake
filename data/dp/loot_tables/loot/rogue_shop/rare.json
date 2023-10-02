@@ -1,0 +1,63 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dp:weapon/excalibur"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_helmet"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_chestplate"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_leggings"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_boots"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trident"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dp:special_item/celebration_firework",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dp:consumable/insight_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

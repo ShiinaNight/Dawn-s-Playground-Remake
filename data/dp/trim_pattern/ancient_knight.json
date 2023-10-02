@@ -1,0 +1,7 @@
+{
+  "asset_id": "dp:ancient_knight",
+  "description": {
+    "translate": "trim_pattern.dp.ancient_knight"
+  },
+  "template_item": "minecraft:chain_command_block"
+}

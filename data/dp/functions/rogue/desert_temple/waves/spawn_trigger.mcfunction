@@ -1,0 +1,1 @@
+give @s minecraft:creeper_spawn_egg{EntityTag:{Facing:1,Invisible:true,Invulnerable:true,Tags:["desert_temple","wave_trigger","desert_temple_wave_trigger"],id:"minecraft:glow_item_frame"}} 1

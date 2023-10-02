@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_ingot",
+            "nbt": "{CustomModelData:12070005}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.tales_of_the_old_days"
+        },
+        "description": {
+            "translate": "advancement.dp.description.tales_of_the_old_days"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:king_arthur",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

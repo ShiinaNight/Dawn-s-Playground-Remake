@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_shard",
+            "nbt": "{CustomModelData:12070006}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.witnessing_the_past"
+        },
+        "description": {
+            "translate": "advancement.dp.description.witnessing_the_past"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:tales_of_the_old_days",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:memory_shard\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

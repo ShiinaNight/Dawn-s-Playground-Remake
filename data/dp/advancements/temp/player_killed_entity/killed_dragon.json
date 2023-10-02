@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": {
+            "text": "killed_dragon"
+        },
+        "description": {
+            "text": "killed_dragon"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/player_killed_entity/player_killed_entity",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/player_killed_entity/killed_dragon"
+    }
+}

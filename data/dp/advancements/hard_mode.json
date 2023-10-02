@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {
+            "translate": "advancement.dp.title.hard_mode"
+        },
+        "description": {
+            "translate": "advancement.dp.description.hard_mode"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:witnessing_the_past",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

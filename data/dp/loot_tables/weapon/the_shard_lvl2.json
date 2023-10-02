@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:the_shard_lvl2\",HideFlags:2,CustomModelData:12070011,display:{Name:'{\"translate\":\"item.dp.the_shard\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "translate": "lore.dp.fake_attribute.slot.mainhand",
+                                    "color": "gray",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "translate": "lore.dp.fake_attribute.the_shard_lvl2.attack_damage",
+                                    "color": "dark_green",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "translate": "lore.dp.fake_attribute.the_shard.attack_speed",
+                                    "color": "dark_green",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "addition",
+                                    "amount": 9,
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": -2.4,
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

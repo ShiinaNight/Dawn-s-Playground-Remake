@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,Fireworks:{Flight:3,Explosions:[{Trail:true,Type:1,Colors:[I;16761856],FadeColors:[I;16776260]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:0,Colors:[I;16732416],FadeColors:[I;16761856]},{Trail:false,Type:4,Colors:[I;16732416],FadeColors:[I;16761856]},]},display:{Name:'{\"translate\":\"item.dp.grand_celebration_firework\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "lore.dp.grand_celebration_firework",
+                                    "color": "gray",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

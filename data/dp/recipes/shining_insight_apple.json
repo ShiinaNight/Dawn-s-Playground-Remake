@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:golden_apple"
+        },
+        {
+            "item": "minecraft:golden_carrot"
+        },
+        {
+            "item": "minecraft:ender_eye"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        },
+        {
+            "item": "minecraft:glow_berries"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

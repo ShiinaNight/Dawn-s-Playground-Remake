@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dp:item/weapon/nameless_blade"
+	}
+}

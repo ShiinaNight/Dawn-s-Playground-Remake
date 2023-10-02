@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:apple",
+            "nbt": "{CustomModelData:12070013}"
+        },
+        "title": {
+            "text": "insight_apple"
+        },
+        "description": {
+            "text": "insight_apple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/recipe_unlocked/recipe_unlocked",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dp:insight_apple"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/recipe_unlocked/insight_apple"
+    }
+}

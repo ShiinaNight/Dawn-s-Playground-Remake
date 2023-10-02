@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:exchalybs_leggings\",HideFlags:128,Trim:{material:\"dp:exchalybs\",pattern:\"dp:hallowed\"},display:{Name:'{\"translate\":\"item.dp.exchalybs_leggings\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.armor",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": 7,
+                                    "slot": "legs"
+                                },
+                                {
+                                    "name": "generic.armor_toughness",
+                                    "attribute": "generic.armor_toughness",
+                                    "operation": "addition",
+                                    "amount": 4.25,
+                                    "slot": "legs"
+                                },
+                                {
+                                    "name": "generic.knockback_resistance",
+                                    "attribute": "generic.knockback_resistance",
+                                    "operation": "addition",
+                                    "amount": 0.1,
+                                    "slot": "legs"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

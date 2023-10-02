@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/experience_bottle"
+  },
+  "overrides": [
+		{ "predicate": { "custom_model_data": 12070014 }, "model": "dp:item/consumable/dream_container"},
+		{ "predicate": { "custom_model_data": 12070015 }, "model": "dp:item/consumable/amethyst_dream_container"}
+	]
+}

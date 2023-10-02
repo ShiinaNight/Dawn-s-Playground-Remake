@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{Trim:{material:\"dp:exchalybs\",pattern:\"dp:hallowed\"}}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.impregnable"
+        },
+        "description": {
+            "translate": "advancement.dp.description.impregnable"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:hardest_stuff",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:exchalybs_helmet\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:exchalybs_chestplate\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:exchalybs_leggings\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:exchalybs_boots\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

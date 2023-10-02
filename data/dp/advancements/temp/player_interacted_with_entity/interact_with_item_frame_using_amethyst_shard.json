@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:item_frame"
+        },
+        "title": {
+            "text": "interact_with_item_frame_using_amethyst_shard"
+        },
+        "description": {
+            "text": "interact_with_item_frame_using_amethyst_shard"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/player_interacted_with_entity/player_interacted_with_entity",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:amethyst_shard"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/player_interacted_with_entity/interact_with_item_frame_using_amethyst_shard"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "title": {
+            "translate": "advancement.dp.title.breaking_the_rule"
+        },
+        "description": {
+            "translate": "advancement.dp.description.breaking_the_rule"
+        },
+        "background": "dp:textures/advancements/backgrounds/crying_obsidian.png",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/reward/breaking_the_rule"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {
+            "translate": "Using Item"
+        },
+        "description": {
+            "translate": "minecraft:using_item"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/temp",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

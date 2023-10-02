@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dp:material/exchalybs_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "binomial",
+                                "n": 24,
+                                "p": 0.3
+                            }
+                        },
+                        {
+                            "function": "minecraft:limit_count",
+                            "limit": {
+                                "min": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "type": "binomial",
+                                "n": 3,
+                                "p": 0.3
+                            },
+                            "limit": 32
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

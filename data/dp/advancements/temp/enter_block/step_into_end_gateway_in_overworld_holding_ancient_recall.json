@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": {
+            "text": "step_into_end_gateway_in_overworld_holding_ancient_recall"
+        },
+        "description": {
+            "text": "step_into_end_gateway_in_overworld_holding_ancient_recall"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/enter_block/enter_block",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{id:\"dp:ancient_recall\"}"
+                        }
+                    },
+                    "location": {
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/enter_block/step_into_end_gateway_in_overworld_holding_ancient_recall"
+    }
+}

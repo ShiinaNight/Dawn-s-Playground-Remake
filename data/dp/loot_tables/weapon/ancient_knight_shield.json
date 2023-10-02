@@ -1,0 +1,67 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:ancient_knight_shield\",Unbreakable:1b,HideFlags:32,BlockEntityTag:{Base:11,Patterns:[{Pattern:tts,Color:4},{Pattern:bts,Color:4},{Pattern:mr,Color:4},{Pattern:cbo,Color:11},{Pattern:flo,Color:11},{Pattern:bo,Color:4}]},display:{Name:'{\"translate\":\"item.dp.ancient_knight_shield\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "lore.dp.rogue_item_description",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.knockback_resistance",
+                                    "attribute": "generic.knockback_resistance",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 0,
+                                        "max": 1
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_base",
+                                    "amount": {
+                                        "min": -0.3,
+                                        "max": 0.3
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.armor",
+                                    "attribute": "generic.armor",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0,
+                                        "max": 1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

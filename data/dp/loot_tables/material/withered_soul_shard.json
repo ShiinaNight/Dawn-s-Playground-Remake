@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:withered_soul_shard\",CustomModelData:12070010,display:{Name:'{\"translate\":\"item.dp.withered_soul_shard\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

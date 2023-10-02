@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield",
+            "nbt": "{BlockEntityTag:{Base:11,Patterns:[{Pattern:tts,Color:4},{Pattern:bts,Color:4},{Pattern:mr,Color:4},{Pattern:cbo,Color:11},{Pattern:flo,Color:11},{Pattern:bo,Color:4}]}}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.chivalry"
+        },
+        "description": {
+            "translate": "advancement.dp.description.chivalry"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:tales_of_the_old_days",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:nameless_blade\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:ancient_knight_helmet\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:ancient_knight_chestplate\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:ancient_knight_leggings\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:ancient_knight_boots\"}"
+                    },
+                    {
+                        "nbt": "{id:\"dp:ancient_knight_shield\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

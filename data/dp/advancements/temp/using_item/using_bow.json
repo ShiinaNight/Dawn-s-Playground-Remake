@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {
+            "text": "using_bow"
+        },
+        "description": {
+            "text": "using_bow"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/using_item/using_item",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:bow"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/using_item/using_bow"
+    }
+}

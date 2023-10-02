@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:amethyst_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:ancient_shard\",CustomModelData:12070008,display:{Name:'{\"translate\":\"item.dp.ancient_shard\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

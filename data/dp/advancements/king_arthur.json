@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:12070001}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.king_arthur"
+        },
+        "description": {
+            "translate": "advancement.dp.description.king_arthur"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:hardest_stuff",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:excalibur\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "dp:special_item/ancient_recall"
+        ]
+    }
+}

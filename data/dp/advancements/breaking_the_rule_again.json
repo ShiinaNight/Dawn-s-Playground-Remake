@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "title": {
+            "translate": "advancement.dp.title.breaking_the_rule_again"
+        },
+        "description": {
+            "translate": "advancement.dp.description.breaking_the_rule_again"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:hard_mode",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"    
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "dp:hard_mode_enabled"
+                    }
+                ]
+            }
+        }
+    }
+}

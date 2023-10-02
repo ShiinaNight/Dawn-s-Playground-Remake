@@ -1,0 +1,1 @@
+execute anchored eyes run particle dust 1 0.902 0 1 ^-0.3 ^ ^0.5 0 0 0 1 1 normal @s

@@ -1,0 +1,1 @@
+give @p minecraft:birch_sign{display:{Name:'[{"text":"Refresh","color":"red","italic":false}]'},BlockEntityTag:{is_waxed:true,front_text:{messages:['{"text":""}','{"text":"Refresh:"}','{"text":"3 Shards","clickEvent":{"action":"run_command","value":"/function dp:item_entity_display/rogue_shop/buy/refresh/detect"}}','{"text":""}']}}} 1

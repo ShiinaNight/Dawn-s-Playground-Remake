@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_item_frame"
+        },
+        "title": {
+            "text": "interact_with_wave_trigger_in_rogue_desert_temple"
+        },
+        "description": {
+            "text": "interact_with_wave_trigger_in_rogue_desert_temple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/player_interacted_with_entity/player_interacted_with_entity",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "nbt": "{id:\"dp:ancient_recall\"}"
+                },
+                "entity": {
+                    "nbt": "{Tags:[\"desert_temple_wave_trigger\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/player_interacted_with_entity/interact_with_wave_trigger_in_rogue_desert_temple"
+    }
+}

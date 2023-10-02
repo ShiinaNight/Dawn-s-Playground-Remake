@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_shard",
+            "nbt": "{CustomModelData:12070007}"
+        },
+        "title": {
+            "translate": "advancement.dp.title.soul_reaper"
+        },
+        "description": {
+            "translate": "advancement.dp.description.soul_reaper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "dp:hard_mode",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"dp:soul_shard\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

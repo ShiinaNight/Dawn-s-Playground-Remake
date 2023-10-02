@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "title": {
+            "translate": "Recipe Unlocked"
+        },
+        "description": {
+            "translate": "minecraft:recipe_unlocked"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/temp",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

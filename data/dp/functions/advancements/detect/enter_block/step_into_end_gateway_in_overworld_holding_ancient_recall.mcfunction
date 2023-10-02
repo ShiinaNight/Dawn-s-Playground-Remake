@@ -1,0 +1,2 @@
+advancement revoke @s only dp:temp/enter_block/step_into_end_gateway_in_overworld_holding_ancient_recall
+function dp:rogue/portal/teleport

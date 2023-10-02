@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "Player Hurt Entity"
+        },
+        "description": {
+            "translate": "minecraft:player_hurt_entity"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/temp",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

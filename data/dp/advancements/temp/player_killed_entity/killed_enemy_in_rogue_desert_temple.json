@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {
+            "text": "killed_enemy_in_rogue_desert_temple"
+        },
+        "description": {
+            "text": "killed_enemy_in_rogue_desert_temple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/player_killed_entity/player_killed_entity",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"rogue_desert_temple_enemy\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/player_killed_entity/killed_enemy_in_rogue_desert_temple"
+    }
+}

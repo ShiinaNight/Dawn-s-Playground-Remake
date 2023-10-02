@@ -1,0 +1,7 @@
+{
+  "asset_id": "dp:hallowed",
+  "description": {
+    "translate": "trim_pattern.dp.hallowed"
+  },
+  "template_item": "minecraft:repeating_command_block"
+}

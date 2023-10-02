@@ -1,0 +1,77 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dp:ancient_knight_boots\",Unbreakable:1b,HideFlags:128,Trim:{material:\"minecraft:iron\",pattern:\"dp:ancient_knight\"},display:{Name:'{\"translate\":\"item.dp.ancient_knight_boots\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "lore.dp.rogue_item_description",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.armor",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -6,
+                                        "max": 6
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "generic.armor_toughness",
+                                    "attribute": "generic.armor_toughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 5
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "generic.knockback_resistance",
+                                    "attribute": "generic.knockback_resistance",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -0.25,
+                                        "max": 0.25
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "generic.movement_speed",
+                                    "attribute": "generic.movement_speed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.25,
+                                        "max": 0.5
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

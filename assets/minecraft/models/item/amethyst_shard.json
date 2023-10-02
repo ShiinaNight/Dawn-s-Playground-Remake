@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 12070006 }, "model": "dp:item/material/memory_shard"},
+    { "predicate": { "custom_model_data": 12070007 }, "model": "dp:item/material/soul_shard"},
+    { "predicate": { "custom_model_data": 12070008 }, "model": "dp:item/material/ancient_shard"},
+    { "predicate": { "custom_model_data": 12070009 }, "model": "dp:item/material/nether_soul_shard"},
+    { "predicate": { "custom_model_data": 12070010 }, "model": "dp:item/material/withered_soul_shard"}
+	]
+}
