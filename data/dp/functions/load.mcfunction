@@ -16,3 +16,5 @@ scoreboard objectives add mcExpBottleUsedTimes minecraft.used:minecraft.experien
 scoreboard objectives add dpOperate dummy {"translate":"scoreboard.dp.operate"}
 # 死亡倒计时
 scoreboard objectives add dpDeathCountdown dummy {"translate":"scoreboard.dp.death_countdown"}
+# 末影龙是否已经被加强
+scoreboard objectives add dpEnderDragonModified dummy {"translate":"scoreboard.dp.ender_dragon_modified"}

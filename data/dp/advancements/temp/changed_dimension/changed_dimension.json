@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": {
+            "translate": "Changed Dimension"
+        },
+        "description": {
+            "translate": "minecraft:changed_dimension"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/temp",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
