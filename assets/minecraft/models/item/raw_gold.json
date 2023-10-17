@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/raw_gold"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 12070004 }, "model": "dp:item/material/gilded_handle"},
+    { "predicate": { "custom_model_data": 12070019 }, "model": "dp:item/material/exchalybs_scrap"}
+	]
+}

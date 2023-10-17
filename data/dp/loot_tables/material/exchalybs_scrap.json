@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:netherite_ingot",
+                    "name": "minecraft:raw_gold",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dp:exchalybs_ingot\",CustomModelData:12070002,display:{Name:'{\"translate\":\"item.dp.exchalybs_ingot\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dp:exchalybs_scrap\",CustomModelData:12070019,display:{Name:'{\"translate\":\"item.dp.exchalybs_scrap\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
                         }
                     ]
                 }

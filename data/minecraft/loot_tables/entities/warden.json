@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dp:loot/exchalybs_ingot/warden"
+          "name": "dp:loot/exchalybs_scrap/warden"
         }
       ],
       "rolls": 1.0

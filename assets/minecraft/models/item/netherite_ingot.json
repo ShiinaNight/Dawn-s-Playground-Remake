@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/netherite_ingot"
   },
   "overrides": [
+    { "predicate": { "custom_model_data": 12070002 }, "model": "dp:item/material/exchalybs_ingot"},
     { "predicate": { "custom_model_data": 12070005 }, "model": "dp:item/special_item/ancient_recall"}
 	]
 }

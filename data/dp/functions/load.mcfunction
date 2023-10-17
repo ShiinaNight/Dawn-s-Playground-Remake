@@ -18,3 +18,8 @@ scoreboard objectives add dpOperate dummy {"translate":"scoreboard.dp.operate"}
 scoreboard objectives add dpDeathCountdown dummy {"translate":"scoreboard.dp.death_countdown"}
 # 末影龙是否已经被加强
 scoreboard objectives add dpEnderDragonModified dummy {"translate":"scoreboard.dp.ender_dragon_modified"}
+# 坍缩等级
+scoreboard objectives add dpCollapseLevel dummy {"translate":"scoreboard.dp.collapse_level"}
+
+# 困难模式相关函数
+execute if score world dpHardMode matches 1 run function dp:hard_mode/load

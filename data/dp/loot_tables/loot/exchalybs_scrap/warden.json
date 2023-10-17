@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "dp:material/exchalybs_ingot",
+                    "name": "dp:material/exchalybs_scrap",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
