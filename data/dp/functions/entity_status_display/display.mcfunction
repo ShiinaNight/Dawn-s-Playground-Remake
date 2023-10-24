@@ -1,0 +1,3 @@
+execute store result score @s dpEntityStatusDisplayMaxHealth run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute store result score @s dpEntityStatusDisplayHealth run data get entity @s Health
+title @a[distance=..5.5,scores={dpShowEntityStatusDisplay=1}] actionbar [{"selector":"@s","color":"aqua"},{"text":"的生命值：","color":"gray"},{"score":{"objective":"dpEntityStatusDisplayHealth","name":"@s"},"color":"green"},{"text":"/","color":"gray"},{"score":{"objective":"dpEntityStatusDisplayMaxHealth","name":"@s"},"color":"green"}]

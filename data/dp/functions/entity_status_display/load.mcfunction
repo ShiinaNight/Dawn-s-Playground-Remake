@@ -1,0 +1,3 @@
+scoreboard objectives add dpShowEntityStatusDisplay dummy
+scoreboard objectives add dpEntityStatusDisplayMaxHealth dummy
+scoreboard objectives add dpEntityStatusDisplayHealth dummy

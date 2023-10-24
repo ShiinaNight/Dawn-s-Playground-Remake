@@ -1,0 +1,1 @@
+execute at @s anchored eyes positioned ^ ^ ^2.5 as @e[distance=..3,nbt={HurtTime:10s},sort=nearest,limit=1] run function dp:entity_status_display/display

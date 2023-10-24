@@ -23,3 +23,5 @@ scoreboard objectives add dpCollapseLevel dummy {"translate":"scoreboard.dp.coll
 
 # 困难模式相关函数
 execute if score world dpHardMode matches 1 run function dp:hard_mode/load
+# 实体信息显示相关函数
+function dp:entity_status_display/load

@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:drowned",
+        "minecraft:husk",
+        "minecraft:stray",
+        "minecraft:witch",
+        "minecraft:guardian",
+        "minecraft:ravager",
+        "minecraft:evoker",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:magma_cube",
+        "minecraft:wither_skeleton",
+        "minecraft:hoglin",
+        "minecraft:zoglin",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin_brute",
+        "minecraft:enderman",
+        "minecraft:shulker"
+    ]
+}

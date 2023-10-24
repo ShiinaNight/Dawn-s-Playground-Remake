@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:drowned",
+        "minecraft:husk",
+        "minecraft:stray",
+        "minecraft:witch",
+        "minecraft:guardian",
+        "minecraft:ravager",
+        "minecraft:evoker",
+        "minecraft:vex",
+        "minecraft:vindicator"
+    ]
+}

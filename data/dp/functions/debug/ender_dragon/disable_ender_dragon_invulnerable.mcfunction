@@ -1,0 +1,1 @@
+data modify entity @e[type=ender_dragon,limit=1] Invulnerable set value false

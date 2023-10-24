@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "player_hurt_any_entity"
+        },
+        "description": {
+            "translate": "player_hurt_any_entity"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "dp:temp/player_hurt_entity/player_hurt_entity",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "dp:advancements/detect/player_hurt_entity/player_hurt_any_entity"
+    }
+}

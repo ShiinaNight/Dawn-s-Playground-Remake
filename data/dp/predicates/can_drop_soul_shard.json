@@ -1,0 +1,22 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "killer",
+            "predicate": {
+                "type_specific": {
+                    "type": "player",
+                    "advancements": {"dp:breaking_the_rule":true}
+                }
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "killer",
+            "scores": {
+                "dpHardMode": 1
+            }
+        }
+    ]
+}
